@@ -3,7 +3,8 @@ import os
 FIELDS_CORE = [
     'indicator', 'itype', 'tlp', 'provider', 'group', 'tlp', 'provider',
     'count', 'message', 'tags', 'confidence', 'description', 'version',
-    'uuid', 'iid', 'oid', 'extra', 'comment', 'organization', 'brand'
+    'uuid', 'iid', 'oid', 'extra', 'comment', 'organization', 'brand',
+    'additional_data'
 ]
 
 FIELDS_TIME = [

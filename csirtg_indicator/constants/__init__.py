@@ -10,7 +10,7 @@ LOG_FORMAT = '%(asctime)s - %(levelname)s - %(name)s[%(lineno)s] - %(message)s'
 
 COLUMNS = ['tlp', 'group', 'reported_at', 'indicator', 'risk', 'asn', 'cc',
            'first_at', 'last_at', 'count', 'tags', 'description', 'confidence',
-           'provider', 'reference']
+           'provider', 'reference', 'additional_data']
 
 MAX_FIELD_SIZE = 30
 
